@@ -1,4 +1,4 @@
-// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.39/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.1","target":"arcade","targetVersion":"1.12.39","repo":"kiki-lee/globe_imgs"}
+// meta={"simUrl":"https://trg-arcade.userpxt.io/v1.12.39/---simulator","cdnUrl":"https://pxt.azureedge.net","version":"0.0.2","target":"arcade","targetVersion":"1.12.39","repo":"kiki-lee/globe_imgs"}
 // total=1533512 new=22.86% cached=72.52% other=4.62%
 (function (ectx) {
 'use strict';
@@ -429,7 +429,7 @@ const pxsim_pxtrt = pxsim.pxtrt;
 const pxsim_numops = pxsim.numops;
 
 
-function _main___P73265(s) {
+function _main___P73342(s) {
 let r0 = s.r0, step = s.pc;
 s.pc = -1;
 
@@ -871,13 +871,13 @@ switch (step) {
     return leave(s, r0)
   default: oops()
 } } }
-_main___P73265.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
-_main___P73265.continuations = [  ]
+_main___P73342.info = {"start":0,"length":0,"line":0,"column":0,"endLine":0,"endColumn":0,"fileName":"main.ts","functionName":"<main>","argumentNames":[]}
+_main___P73342.continuations = [  ]
 
-function _main___P73265_mk(s) {
+function _main___P73342_mk(s) {
     checkStack(s.depth);
     return {
-        parent: s, fn: _main___P73265, depth: s.depth + 1,
+        parent: s, fn: _main___P73342, depth: s.depth + 1,
         pc: 0, retval: undefined, r0: undefined, overwrittenPC: false, lambdaArgs: null,
   tmp_0: undefined,
   tmp_1: undefined,
@@ -43229,5 +43229,5 @@ const sprites_BaseSpriteSayRenderer__C57036_VT = mkVTable({
 
 const breakpoints = setupDebugger(1, ["transparency16___73098","tile3___73113","tile5___73118","tile1___73103","tile2___73108"])
 
-return _main___P73265
+return _main___P73342
 })
